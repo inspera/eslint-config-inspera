@@ -11,6 +11,6 @@ module.exports = {
     },
     "plugins": ["react"],
     "rules": {
-        "no-danger": [0]
+        "react/no-danger": 0
     }
 };
