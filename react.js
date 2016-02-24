@@ -9,5 +9,8 @@ module.exports = {
                 "jsx": true
         }
     },
-    "plugins": ["react"]
+    "plugins": ["react"],
+    "rules": {
+        "no-danger": [0]
+    }
 };
