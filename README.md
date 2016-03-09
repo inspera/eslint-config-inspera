@@ -22,3 +22,16 @@ Then add the following property to the .eslintrc file:
 Or, if you want to use a global eslint with a local eslint-config-inspera install:
 
 "extends": "./node_modules/eslint-config-inspera/index.js"
+
+
+Rules not covered by ESLint:
+----------------------------
+Newlines: \n
+Charcter encoding: UTF-8
+
+
+Soft principles:
+----------------
+* Write for readability and maintainability.
+* Use informative and precise names for your functions and variables.
+* Avoid writing dense "show off" code.
