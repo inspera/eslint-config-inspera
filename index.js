@@ -1,13 +1,10 @@
 'use strict';
 
 module.exports = {
-    extends: 'eslint:recommended',
+    extends: 'airbnb',
 
     rules: {
-        'quotes': [2, 'single'],
-        'eol-last': [0],
-        'no-mixed-requires': [0],
-        'no-underscore-dangle': [0],
-        'semi': [2, 'always']
+        'indent': [2, 4],
+        'comma-dangle': [0]
     }
 };
