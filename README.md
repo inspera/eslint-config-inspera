@@ -7,8 +7,9 @@
 ## Core principles:
 1. All code in a project should look like it was written by one person.
   - The code base is not an arena for expressing your creativity or cleverness.
+
 2. Write for robustness
-- Choose styles and patterns that are the least likely to cause bugs.
+  - Choose styles and patterns that are the least likely to cause bugs.
 
 3. Write for readability and maintainability.
   - Use informative and precise names for your functions and variables.
@@ -85,13 +86,13 @@ can easily figure it out from the context we are working in. But please
 do not hesitate to use it when you feel that it adds real value.
 If so, these are the suffixes to use:
 
-...Data:    For plain data objects. For example: let questionData = JSON.parse(questionJSON);
-...JSON:    For data objects represented as strings in the JSON format. See json.org.
-...XML:     For XML strings.
-...Node:    For DOM or XML nodes.
-...Element: For DOM or XML elements.
-...Elm:     ^^^
-...Int:     For integers (123). Not for numeric strings ("123").
+...Data:    For plain data objects. For example: let questionData = JSON.parse(questionJSON);  
+...JSON:    For data objects represented as strings in the JSON format. See json.org.  
+...XML:     For XML strings.  
+...Node:    For DOM or XML nodes.  
+...Element: For DOM or XML elements.  
+...Elm:     ^^^  
+...Int:     For integers (123). Not for numeric strings ("123").  
 ...Array:	For arrays...
 
 Arrays should have names on the plural form, or use a prefix to indicate that it is an array and not a single value.
@@ -106,10 +107,10 @@ var car = [myCar];
 
 
 ## Standard names for common things
-Event:      e || event
-Error:	    err || error
-Response:   res || response
-Request:    req || request
+Event:      e || event  
+Error:	    err || error  
+Response:   res || response  
+Request:    req || request  
 
 
 ## Some no, nos
