@@ -122,9 +122,8 @@ Request:    req || request
 Never use "thing" when you mean "thingId".
 
 # Files
-Charcter encoding: UTF-8
-File names should be exactly the same as the name of their main export, when applicable.
-Use camelCase or PascalCase instead of dashes or underscores to combine words.
+Charcter encoding: UTF-8  
+File names should be exactly the same as the name of their main export, when applicable. Use camelCase or PascalCase instead of dashes or underscores to combine words.
 
 
 # Working with existing/old/legacy code
