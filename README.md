@@ -147,11 +147,13 @@ All code should be linted before any pull request is made.
 
 To use it with a locally installed eslint:
 ```shell
-$ npm install --save git+https://github.com/inspera/eslint-config-inspera.git
+$ npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint
+$ npm install --save-dev git+https://github.com/inspera/eslint-config-inspera.git
 ```
 
 To use it with a globally installed eslint:
 ```shell
+$ npm install -g eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint
 $ npm install -g git+https://github.com/inspera/eslint-config-inspera.git
 ```
 
