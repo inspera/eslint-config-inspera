@@ -23,6 +23,7 @@
 # Style guide
 For our hard formatting rules, we (mostly) follow the Airbnb JavaScript Style Guide.
 https://github.com/airbnb/javascript
+The Airbnb styleguide is chosen because it is comprehensive, widely used and reasonably close to our own current practices.
 
 ## Our amendments:
 ### Comments
@@ -153,7 +154,7 @@ $ npm install --save-dev git+https://github.com/inspera/eslint-config-inspera.gi
 
 To use it with a globally installed eslint:
 ```shell
-$ npm install -g eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint
+$ npm install -g|| eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint
 $ npm install -g git+https://github.com/inspera/eslint-config-inspera.git
 ```
 
