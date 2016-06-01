@@ -26,12 +26,16 @@ https://github.com/airbnb/javascript
 The Airbnb styleguide is chosen because it is comprehensive, widely used and reasonably close to our own current practices.
 
 ## Our amendments:
+### Line length
+* We accept 140 characters
+
 ### Comments
 * Do not reference Jira issues in comments. How and why the code works should be understandable from the code itself and the comments. Feel free to explain why things are done the way they are if you think it may look strange or confusing.
 * Always document any parameters or return values that are not totally obvious.
 
 ### Whitespace
 * Four spaces for indentation, not two.
+* Function declarations must be separated with one blank line. The blank line goes above the documentation, if present.
 
 ### Commas
 * Trailing commas are allowed, but not enforced.
