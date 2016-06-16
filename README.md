@@ -5,20 +5,20 @@
 2. Kill off fruitless day to day arguments over stylistic preferences.
 
 ## Core principles:
-1. All code in a project should look like it was written by one person.
-  - The code base is not an arena for expressing your creativity or cleverness.
-
-2. Write for robustness
-  - Choose styles and patterns that are the least likely to cause bugs.
-
-3. Write for readability and maintainability.
-  - Use informative and precise names for your functions and variables.
-  - Avoid writing dense "show off" code.
-  - Saving lives is important. Saving lines is not.
-
-4. Do things the idiomatic way
-  - When you follow the established ways of doing things, others will know what to expect and what to look out for.
-  - If you think other ways are better, suggest them as the new standard.
+1. __All code in a project should look like it was written by one person__    
+   The code base is not an arena for expressing your creativity or cleverness.
+   
+2. __Write for robustness__    
+   Choose styles and patterns that are the least likely to cause bugs.
+    
+3. __Write for readability and maintainability__    
+   Use informative and precise names for your functions and variables.    
+   Avoid writing dense "show off" code.    
+   Saving lives is important. Saving lines is not.        
+   
+4. __Do things the idiomatic way__   
+   When you follow the established ways of doing things, others will know what to expect and what to look out for.   
+   If you think other ways are better, suggest them as the new standard.   
 
 # Style guide
 For our hard formatting rules, we (mostly) follow the Airbnb JavaScript Style Guide.
@@ -45,7 +45,7 @@ The Airbnb styleguide is chosen because it is comprehensive, widely used and rea
 * Document well.
 
 ### null or undefined
-Always use undefined for things that are not set or have no value. One is not better than the other, but consistency is good, and undefineds are just more commonly encountered out there. 
+Use undefined for things that are not set or have no value. One is not better than the other, but consistency is good, and undefineds are just more commonly encountered out there. 
 
 ### Nesting
 * Avoid deep nesting of loops and conditional statements. Confusing nested logic is a frequent source of bugs, and can be very hard to read and debug.
@@ -59,7 +59,7 @@ Good naming makes it easier to read and understand code. Try to use names that a
 
 ## Language, spelling and grammar
 Code and comments should be written in US English.
-Make an effort to avoid grammar and spelling mistakes. They may not matter to the compiler, but they can be both confusing and annoying.
+Make an effort to avoid grammar and spelling mistakes. They may not matter to the compiler, but they can be both confusing and annoying to your fellow developers.
 
 ## Functions
 Good function names are action oriented and start with a verb.
@@ -132,15 +132,19 @@ File names should be exactly the same as the name of their main export, when app
 
 
 # Working with existing/old/legacy code
-If another decent standard is in use, follow that.
-If there is no obvious style present, consider refactoring to apply this style guide. 
+* If another decent standard is in use, follow that.
+* If there is no obvious style present, consider refactoring to apply this style guide.
+* Changes to make old code better comply with the main principles of this manifesto are always welcome, even though full refactoring may not be realistic.
+* Always leave files you have worked with in a better state than when you opened them.
 
 ## When refactoring:
-Refactor in separate commits, before making any functional changes. Always refactor at least one whole file at a time. Also refactor related files if the risk and the effort are low.
+Refactor in separate commits, before making any functional changes. Refactor whole files, not just the parts you are actually intending to change, functionally. Also refactor related files if the risk and the effort are low.
 
 
 # Practical usage and enforcement
 Use the ESLint config in this project to lint all code.
+
+To make the transition phase easier, we can downgrade some rules to warning level in individual repos or sub folders.
 
 ## Tooling and process
 All projects should have tooling in place that makes it easy to lint the code. Ideally, linting should be integrated with the unit testing. If the linter complains, the tests fail!
@@ -171,4 +175,3 @@ Or, if you want to use a global eslint with a local eslint-config-inspera instal
 
 "extends": "./node_modules/eslint-config-inspera/index.js"
  
-  
