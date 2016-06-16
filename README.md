@@ -155,15 +155,16 @@ All code should be linted before any pull request is made.
 
 To use it with a locally installed eslint:
 ```shell
-$ npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint
-$ npm install --save-dev git+https://github.com/inspera/eslint-config-inspera.git
+$ npm install --save-dev git+https://github.com/inspera/eslint-config-inspera.git#manifesto-with-airbnb
 ```
 
 To use it with a globally installed eslint:
 ```shell
-$ npm install -g|| eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint
-$ npm install -g git+https://github.com/inspera/eslint-config-inspera.git
+$ npm install -g git+https://github.com/inspera/eslint-config-inspera.git#manifesto-with-airbnb
 ```
+
+After the branch is merged, you can drop the #manifesto-with-airbnb part.   
+If you get an error message saying "Cannot find module 'estraverse-fb'", just upgrade eslint and babel-eslint to the latest version.
 
 Create an .eslintrc file if you do not have one already.
 Then add the following property to the .eslintrc file:
