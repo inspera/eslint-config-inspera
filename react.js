@@ -12,11 +12,12 @@ module.exports = {
         "react/jsx-indent-props": [2, 4],
         "react/sort-comp": [2, {
             order: [
+                'type-annotations',
                 'static-methods',
                 'lifecycle',
                 'everything-else',
                 'render'
             ]
-        }]
+        }],
     }
 };
