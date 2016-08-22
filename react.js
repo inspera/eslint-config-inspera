@@ -19,5 +19,6 @@ module.exports = {
                 'render'
             ]
         }],
+        'react/jsx-filename-extension': [0],
     }
 };
