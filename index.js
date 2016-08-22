@@ -9,6 +9,6 @@ module.exports = {
         'prefer-arrow-callback': [1],
         'quote-props': [1],
         'space-before-function-paren': [1],
-        'consistent-return': [2, { treatUndefinedAsUnspecified: true }],
+        'consistent-return': [2, { treatUndefinedAsUnspecified: false }],
     }
 };
