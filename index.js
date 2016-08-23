@@ -1,13 +1,15 @@
-'use strict';
-
 module.exports = {
-    extends: 'eslint:recommended',
+    extends: 'airbnb',
 
     rules: {
-        'quotes': [2, 'single'],
-        'eol-last': [0],
-        'no-mixed-requires': [0],
-        'no-underscore-dangle': [0],
-        'semi': [2, 'always']
-    }
+        'arrow-body-style': [0],
+        indent: [2, 4],
+        'max-len': [1, 140],
+        'func-names': [1],
+        'prefer-arrow-callback': [1],
+        'quote-props': [1],
+        'space-before-function-paren': [1],
+        'consistent-return': [2, { treatUndefinedAsUnspecified: false }],
+        'import/no-extraneous-dependencies': 0,
+    },
 };
