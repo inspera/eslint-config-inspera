@@ -7,6 +7,7 @@ module.exports = {
         'react/no-multi-comp': 0,
         'react/prefer-es6-class': [0],
         'react/prefer-stateless-function': 0,
+        'react/forbid-prop-types': [0],
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         'react/sort-comp': [2, {
