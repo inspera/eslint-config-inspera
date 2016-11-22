@@ -9,6 +9,7 @@ module.exports = {
         'linebreak-style': 0,
         'max-len': [1, 140],
         'no-param-reassign': [2, { props: false }],
+        'no-plusplus': [0],
         'no-shadow': [0],
     },
 };
