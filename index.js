@@ -3,11 +3,11 @@ module.exports = {
 
     rules: {
         'arrow-body-style': 'off',
-        'class-methods-use-this': 'off',
+        'class-methods-use-this': 0,
         'consistent-return': ['error', { treatUndefinedAsUnspecified: false }],
         'global-require': 'off',
         'import/no-extraneous-dependencies': 'off',
-        'jsx-a11y/no-static-element-interactions': 'warn',
+        'jsx-a11y/no-static-element-interactions': 1,
         'indent': ['error', 4],
         'linebreak-style': 'off',
         'max-len': ['warn', 150],
