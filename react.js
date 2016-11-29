@@ -3,6 +3,7 @@ module.exports = {
     extends: 'plugin:react/recommended',
     plugins: ['react'],
     rules: {
+        'react/forbid-prop-types': 'off',
         'react/jsx-filename-extension': 'off',
         'react/jsx-indent': ['error', 4],
         'react/jsx-indent-props': ['error', 4],
