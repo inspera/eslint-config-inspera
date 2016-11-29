@@ -4,6 +4,13 @@ module.exports = {
     rules: {
         'arrow-body-style': 'off',
         'class-methods-use-this': 0,
+        'comma-dangle': ['error', {
+            arrays: 'always-multiline',
+            objects: 'always-multiline',
+            imports: 'always-multiline',
+            exports: 'always-multiline',
+            functions: 'ignore',
+        }],
         'consistent-return': ['error', { treatUndefinedAsUnspecified: false }],
         'global-require': 'off',
         'import/no-extraneous-dependencies': 'off',
