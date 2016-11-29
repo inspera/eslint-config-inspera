@@ -3,13 +3,14 @@ module.exports = {
     extends: 'plugin:react/recommended',
     plugins: ['react'],
     rules: {
-        'react/no-danger': 0,
-        'react/no-multi-comp': 0,
-        'react/prefer-es6-class': [0],
-        'react/prefer-stateless-function': 0,
-        'react/jsx-indent': [2, 4],
-        'react/jsx-indent-props': [2, 4],
-        'react/sort-comp': [2, {
+        'react/jsx-filename-extension': 'off',
+        'react/jsx-indent': ['error', 4],
+        'react/jsx-indent-props': ['error', 4],
+        'react/no-danger': 'off',
+        'react/no-multi-comp': 'off',
+        'react/prefer-es6-class': 'off',
+        'react/prefer-stateless-function': 'off',
+        'react/sort-comp': ['error', {
             order: [
                 'type-annotations',
                 'static-methods',
@@ -18,6 +19,5 @@ module.exports = {
                 'render',
             ],
         }],
-        'react/jsx-filename-extension': [0],
     },
 };

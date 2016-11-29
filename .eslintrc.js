@@ -20,13 +20,4 @@ module.exports = {
     global: {
         Promise: true
     },
-    rules: {
-        'global-require': [0],
-        'max-len': [1],
-        'no-param-reassign': [2, {props: false}],
-        'no-shadow': [1],
-        'func-names': [1],
-        'quote-props': [1],
-        'react/jsx-filename-extension': [0],
-    }
 };
