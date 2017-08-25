@@ -1,12 +1,17 @@
 {
   "name": "eslint-config-inspera",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "JavaScript style rules for use with ESLint.",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/inspera/eslint-config-inspera.git"
   },
-  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "copyfiles index.js react.js package.json README.md lib && npm pack lib",
+    "lint": "eslint ./src/*.js ./src/js/**/*.js"
+  },
   "license": "ISC",
   "dependencies": {
     "eslint": "^4.5.0",
@@ -18,6 +23,7 @@
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
+    "copyfiles": "^1.2.0",
     "gulp": "^3.9.1",
     "gulp-eslint": "^4.0.0",
     "gulp-if": "^2.0.2",
