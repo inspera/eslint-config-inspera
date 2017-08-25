@@ -36,9 +36,6 @@ The Airbnb styleguide is chosen because it is comprehensive, widely used and rea
 * Four spaces for indentation, not two.
 * Function declarations must be separated with one blank line. The blank line goes above the documentation, if present.
 
-### Commas
-* Trailing commas are allowed, but not enforced.
-
 ### Bitwise operators
 * Do not use them unless it is strictly necessary for performance reasons.
 * Document well.
