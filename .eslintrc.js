@@ -17,7 +17,7 @@ module.exports = {
         node: true,
         mocha: true
     },
-    global: {
+    globals: {
         Promise: true
     },
 };

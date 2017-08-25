@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-inspera",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "description": "JavaScript style rules for use with ESLint.",
   "repository": {
     "type": "git",
@@ -9,18 +9,18 @@
   "main": "index.js",
   "license": "ISC",
   "dependencies": {
-    "eslint": "~3.10.2",
-    "eslint-config-airbnb": "~13.0.0",
-    "eslint-plugin-import": "~2.2.0",
-    "eslint-plugin-jsx-a11y": "~2.2.3",
-    "eslint-plugin-react": "~6.7.1"
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
     "gulp": "^3.9.1",
-    "gulp-eslint": "^3.0.1",
-    "gulp-if": "^2.0.1",
-    "gulp-util": "^3.0.7"
+    "gulp-eslint": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-util": "^3.0.8"
   }
 }

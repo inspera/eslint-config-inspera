@@ -36,9 +36,6 @@ The Airbnb styleguide is chosen because it is comprehensive, widely used and rea
 * Four spaces for indentation, not two.
 * Function declarations must be separated with one blank line. The blank line goes above the documentation, if present.
 
-### Commas
-* Trailing commas are allowed, but not enforced.
-
 ### Bitwise operators
 * Do not use them unless it is strictly necessary for performance reasons.
 * Document well.
@@ -155,12 +152,12 @@ All code should be linted before any pull request is made.
 
 To use it with a locally installed eslint:
 ```shell
-$ npm install --save-dev git+https://github.com/inspera/eslint-config-inspera.git#manifesto-with-airbnb
+$ npm i -D git+https://github.com/inspera/eslint-config-inspera.git#1.5.0
 ```
 
 To use it with a globally installed eslint:
 ```shell
-$ npm install -g git+https://github.com/inspera/eslint-config-inspera.git#manifesto-with-airbnb
+$ npm i -g git+https://github.com/inspera/eslint-config-inspera.git#1.5.0
 ```
 
 After the branch is merged, you can drop the #manifesto-with-airbnb part.   
