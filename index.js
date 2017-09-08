@@ -18,6 +18,8 @@ module.exports = {
         'indent': ['error', 4],
         'linebreak-style': 'off',
         'max-len': ['warn', 150],
+        'no-alert': 'off',
+        'no-console': 'off',
         'no-param-reassign': ['error', { props: false }],
         'no-plusplus': 'off',
         'no-restricted-syntax': [
@@ -27,6 +29,7 @@ module.exports = {
             'LabeledStatement',
             'WithStatement',
         ],
+        'no-script-url': 'off',
         'no-shadow': 'warn',
         'quote-props': ['error', 'consistent-as-needed'],
     },
