@@ -16,6 +16,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'indent': ['error', 4],
         'linebreak-style': 'off',
+        'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
         'max-len': ['warn', 150],
         'no-alert': 'off',
         'no-console': 'off',
