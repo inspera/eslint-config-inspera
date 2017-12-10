@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-inspera",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "description": "JavaScript style rules for use with ESLint.",
   "main": "index.js",
   "repository": {
