@@ -14,7 +14,6 @@ module.exports = {
         'consistent-return': ['error', { treatUndefinedAsUnspecified: false }],
         'global-require': 'off',
         'import/no-extraneous-dependencies': 'off',
-        'jsx-a11y/no-static-element-interactions': 1,
         'indent': ['error', 4],
         'linebreak-style': 'off',
         'max-len': ['warn', 150],
