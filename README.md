@@ -14,9 +14,11 @@
 3. __Write for readability and maintainability__    
    Use informative and precise names for your functions and variables.    
    Avoid writing dense "show off" code.    
-   Saving lives is important. Saving lines is not.        
    
-4. __Do things the idiomatic way__   
+4. __Compose from simple functions
+   
+   
+5. __Do things the idiomatic way__   
    When you follow the established ways of doing things, others will know what to expect and what to look out for.   
    If you think other ways are better, suggest them as the new standard.   
 
