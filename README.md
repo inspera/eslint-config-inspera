@@ -16,7 +16,7 @@
    Avoid writing dense "show off" code.    
    
 4. __Compose from simple functions
-   
+   To make each step obvious and easy to verify.
    
 5. __Do things the idiomatic way__   
    When you follow the established ways of doing things, others will know what to expect and what to look out for.   
