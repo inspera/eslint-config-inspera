@@ -12,6 +12,7 @@ module.exports = {
             functions: 'ignore',
         }],
         'consistent-return': ['error', { treatUndefinedAsUnspecified: false }],
+        'function-paren-newline': 'off',
         'global-require': 'off',
         'import/no-extraneous-dependencies': 'off',
         'indent': ['error', 4],
@@ -22,6 +23,7 @@ module.exports = {
         'no-console': 'off',
         'no-param-reassign': ['error', { props: false }],
         'no-plusplus': 'off',
+        'no-restricted-globals': 'off', // TODO: Should be tuned on
         'no-restricted-syntax': [
             'error',
             'ForInStatement',
@@ -31,6 +33,9 @@ module.exports = {
         ],
         'no-script-url': 'off',
         'no-shadow': 'warn',
+        'object-curly-newline': 'off',
+        'prefer-destructuring': 'off',
+        'prefer-promise-reject-errors': 'off',
         'quote-props': ['error', 'consistent-as-needed'],
     },
 };

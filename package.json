@@ -1,32 +1,32 @@
 {
-  "name": "eslint-config-inspera",
-  "version": "1.5.5",
-  "description": "JavaScript style rules for use with ESLint.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inspera/eslint-config-inspera.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "copyfiles index.js react.js package.json README.md lib && npm pack lib",
-    "lint": "eslint ./src/*.js ./src/js/**/*.js"
-  },
-  "license": "ISC",
-  "dependencies": {
-    "eslint": "4.17.0",
-    "eslint-config-airbnb": "15.1.0",
-    "eslint-plugin-import": "2.7.0",
-    "eslint-plugin-jsx-a11y": "5.1.1",
-    "eslint-plugin-react": "7.3.0"
-  },
-  "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-eslint": "8.2.1",
-    "copyfiles": "2.0.0",
-    "gulp": "3.9.1",
-    "gulp-eslint": "5.0.0",
-    "gulp-if": "2.0.2",
-    "gulp-util": "3.0.8"
-  }
+    "name": "eslint-config-inspera",
+    "version": "2.0.1",
+    "description": "JavaScript style rules for use with ESLint.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inspera/eslint-config-inspera.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "copyfiles index.js react.js package.json README.md lib && npm pack ./lib",
+        "lint": "eslint ./**/*.js"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "babel-eslint": "10.0.2",
+        "eslint": "4.19.1",
+        "eslint-config-airbnb": "16.1.0",
+        "eslint-plugin-import": "2.18.0",
+        "eslint-plugin-jsx-a11y": "5.1.1",
+        "eslint-plugin-react": "7.4.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.4",
+        "copyfiles": "^2.1.0",
+        "eslint": "4.19.1"
+    },
+    "peerDependencies": {
+        "eslint": "4.19.1"
+    }
 }
